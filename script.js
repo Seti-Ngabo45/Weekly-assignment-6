@@ -9,18 +9,16 @@ function pizza () {
     total = (6 + 1) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
-  } 
-  else if ((size === 'Extra large') && (top === 1)) {
+  } else if ((size === 'Extra large') && (top === 1)) {
     total = (10 + 1) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
-  }
+  } 
   if ((size === 'Large') && (top === 2)) {
     total = ( 6 + 1.75 ) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
-  }
-  else if ((size === 'Extra large') && (top === 2)) {
+  } else if ((size === 'Extra large') && (top === 2)) {
     total = (10 + 1.75) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
@@ -29,8 +27,7 @@ function pizza () {
     total = (6 + 2.50) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
-  }
-  else if ((size === 'Extra large') && (top === 3)) {
+  } else if ((size === 'Extra large') && (top === 3)) {
     total = (10 + 2.50) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
@@ -39,8 +36,7 @@ function pizza () {
     total = (6 + 3.35) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
-  }
-  else if ((size === 'Extra large') && (top === 4)) {
+  } else if ((size === 'Extra large') && (top === 4)) {
     total = (10 + 3.35) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
