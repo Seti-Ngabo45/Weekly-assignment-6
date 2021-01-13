@@ -15,7 +15,7 @@ function pizza () {
     alert('The total cost is $' + total)
   }
   if ((size === 'Large') && (top === 2)) {
-    total = ( 6 + 1.75 ) * 1.13
+    total = (6 + 1.75) * 1.13
     total = total.toFixed(2)
     alert('The total cost is $' + total)
   } else if ((size === 'Extra large') && (top === 2)) {
